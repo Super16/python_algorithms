@@ -1,7 +1,7 @@
 """Heapsort sort"""
 
 """Worst-case performance — O(n * log(n))
-   Best-case performance  — O(O(n * log(n)))"""
+   Best-case performance  — O(n * log(n))"""
 
 from heapq import heappush, heappop
 import random
