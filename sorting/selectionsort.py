@@ -28,7 +28,7 @@ class TestSelection(unittest.TestCase):
     """Test them all"""
 
     def test_selection_sort(self):
-        """Test for insertion sort algorithm"""
+        """Test for selection sort algorithm"""
         self.assertEqual(selection_sort(random_unsorted_list), 
                          sorted(random_unsorted_list))
 
